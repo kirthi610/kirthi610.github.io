@@ -1,0 +1,207 @@
+/* Common CSS Start */
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+.d-flex {
+    display: flex;
+}
+.align-v-center {
+    align-items: center;
+}
+/* Common CSS End */
+
+/* Main Header CSS Start */
+header.main-header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+.main-header .links a {
+    color: #FFF;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.main-header .links {
+    list-style: none;
+    display: flex;
+}
+
+.main-header .search {
+background-color: transparent;
+border: none;
+}
+.main-header button.search  {
+    width: 34px;
+}
+.main-header button.search img {
+    width: 100%;
+}
+/* Main Header CSS End ----------------------------*/
+
+
+/* Main Banner CSS Start */
+.main-banner-section {
+    background-image: linear-gradient(#0000ff70,#0000ff4a),url(./banner_image.jpg);
+    background-position: center;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #FFF;
+}
+.main-banner-section button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.main-banner-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.block{
+    display: block;
+}
+/* Main Banner CSS End */
+
+/*section2*/
+.bannertwo{
+    background-color: #0000ff7d;
+    color: white;
+    padding-top: 30px;
+}
+.justify-content{
+    text-align: center;
+}
+.justify-content h2{
+    font-size: 50px;
+}
+.main-banner-section2{
+    text-align: center;
+    padding: 70px;
+}
+
+/*section3*/
+.bannerthree{
+    background-image: linear-gradient(#ffff0069,#ffff00c2),url(./pet_care_banner.png.jpg);
+    background-position: center;
+    padding-top: 100px;
+    color: white; 
+    justify-content: space-between; 
+}
+.main-banner-section3{
+    border: 8px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    text-align: center;      
+}
+.pad{
+    padding: 100px; 
+}
+.inside-one{
+    text-align: center;
+}
+.inside-one h2{
+    font-size: 50px;
+}
+.main-banner-section3 h4{
+    font-size: 25px;
+}
+
+/*section4*/
+.bannerfour{
+    background-color: dodgerblue;
+    background-position: center;
+    padding: 100px;
+    display: flex;
+    color: white;
+}
+.insidetwo button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px; 
+}
+.insidetwo h5 {
+    padding-top: 80px;
+    font-size: 50px;
+}
+.content{
+    justify-content: space-between;
+}
+
+/*section5*/
+.fifth-banner {
+    background-color: rgb(90, 150, 210);
+    background-position: center;
+    text-align: left;
+    color: #FFF;
+    padding: 100px 150px;
+    justify-content: space-between;  
+}
+.inside-three{
+    padding-top: 100px;
+    align-items: center;
+    padding-left: 150px;
+    font-size: 25px;
+}
+.inside-three button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px; 
+}
+/*
+.fifth-banner {
+    background-color: rgb(90, 150, 210);
+    background-position: center;  
+    text-align: left;
+    color: #FFF;
+    padding: 100px 150px;
+    justify-content: space-between;
+    
+}
+.inside-fifth{
+    padding-top: 100px;
+    align-items: center;
+    padding-left: 150px;
+    font-size: 25px;
+}
+
+.inside-fifth button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+}*/
+
+
+
+
+
+
+
+
+
+
