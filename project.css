@@ -13,8 +13,9 @@ body {
 /* Common CSS End */
 
 /* Main Header CSS Start */
+
 header.main-header {
-    background-color: blue;
+    background-color: #0000ff87;
     display: flex;
     justify-content: space-between;
     padding: 15px 50px;
@@ -43,12 +44,14 @@ border: none;
 
 
 /* Main Banner CSS Start */
+.section-1{
+    background-image: linear-gradient(#0000ff59,#0000ff8a),url(./pic/banner_image.jpg);   
+}
 .main-banner-section {
-    background-image: linear-gradient(#0000ff70,#0000ff4a),url(./banner_image.jpg);
     background-position: center;
     text-align: center;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 200px;
     color: #FFF;
 }
 .main-banner-section button {
@@ -90,7 +93,7 @@ border: none;
 
 /*section3*/
 .bannerthree{
-    background-image: linear-gradient(#ffff0069,#ffff00c2),url(./pet_care_banner.png.jpg);
+    background-image: linear-gradient(#ffff0069,#ffff00c2),url(./pic/pet_care_banner.png.jpg);
     background-position: center;
     padding-top: 100px;
     color: white; 
@@ -104,7 +107,7 @@ border: none;
     padding: 50px;
     text-align: center;      
 }
-.pad{
+.pads{
     padding: 100px; 
 }
 .inside-one{
@@ -117,6 +120,7 @@ border: none;
     font-size: 25px;
 }
 
+
 /*section4*/
 .bannerfour{
     background-color: dodgerblue;
@@ -124,6 +128,9 @@ border: none;
     padding: 100px;
     display: flex;
     color: white;
+    justify-content: space-between;
+    padding-top: 50px;
+    
 }
 .insidetwo button {
     background: #d2ba00;
@@ -144,32 +151,7 @@ border: none;
 }
 
 /*section5*/
-.fifth-banner {
-    background-color: rgb(90, 150, 210);
-    background-position: center;
-    text-align: left;
-    color: #FFF;
-    padding: 100px 150px;
-    justify-content: space-between;  
-}
-.inside-three{
-    padding-top: 100px;
-    align-items: center;
-    padding-left: 150px;
-    font-size: 25px;
-}
-.inside-three button {
-    background: #d2ba00;
-    color: white;
-    border: yellow;
-    padding: 15px 45px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 24px;
-    margin-top: 20px; 
-}
-/*
-.fifth-banner {
+.banner-five {
     background-color: rgb(90, 150, 210);
     background-position: center;  
     text-align: left;
@@ -178,14 +160,14 @@ border: none;
     justify-content: space-between;
     
 }
-.inside-fifth{
+.inside-three{
     padding-top: 100px;
     align-items: center;
     padding-left: 150px;
-    font-size: 25px;
+    font-size: 18px;
 }
 
-.inside-fifth button {
+.inside-three button {
     background: #d2ba00;
     color: white;
     border: yellow;
@@ -194,8 +176,102 @@ border: none;
     font-weight: bold;
     border-radius: 24px;
     margin-top: 20px;
-}*/
+}
+/* section6*/
+.one button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 25px;
+}
+.one{
+    background-color: white;
+    padding-top: 50px;
+    border-radius: 10px;
+    border: 5px solid white;
+    text-align: center;
+    color: #0000ff75;
+}
+.banner-six{
+    background-color:#0000ff80; 
+    padding:50px; 
+}
+.pad{
+    padding: 50px;
+}
+.inside-four {
+    text-align: center;
+    color:white;
+}
+.inside-four h2{
+    font-size: 50px;
+}
+/*section7*/
+.banner-seven {
+    background-color: blue;
+    padding: 200px;
+    padding-top: 50px;
+    color: #FFF;
+}
+.inside-five{
+    text-align: center;
+}
+.inside-five h2{
+    font-size: 50px;
+}
+.inside img{
+    width: 80px;
+    height: 80px;
+    padding-top: 50px;
+}
+.sectionsub1{
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.sectionsub2{
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
 
+/*section8*/
+.banner-eight{
+    background-image: linear-gradient(#ffff00b3,#ffff00c2),url(./pic/dr_Jenny.jpg);
+    padding: 400px;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+}
+/*section9*/
+.banner-nine{
+    background-color: black;
+    padding: 50px;
+    color: #FFF;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px
+}
+.list-class{
+    display: flex;
+    list-style: none;
+    padding-bottom: 100px;
+}
+.list-place{
+    list-style: none;
+}
+.fa-brands{
+    background-color: #ffffff29;
+    border: 8px solid white;
+    border-radius: 50%;
+}
 
 
 
