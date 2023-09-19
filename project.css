@@ -45,7 +45,9 @@ border: none;
 
 /* Main Banner CSS Start */
 .section-1{
-    background-image: linear-gradient(#0000ff59,#0000ff8a),url(./pic/banner_image.jpg);   
+    background-image: linear-gradient(#0000ff59,#0000ff8a),url(./pic/banner_image.jpg); 
+    background-repeat: no-repeat;  
+    background-size: cover;
 }
 .main-banner-section {
     background-position: center;
@@ -63,6 +65,7 @@ border: none;
     font-weight: bold;
     border-radius: 24px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .main-banner-section h1 {
@@ -141,6 +144,7 @@ border: none;
     font-weight: bold;
     border-radius: 24px;
     margin-top: 20px; 
+    cursor: pointer;
 }
 .insidetwo h5 {
     padding-top: 80px;
@@ -176,6 +180,7 @@ border: none;
     font-weight: bold;
     border-radius: 24px;
     margin-top: 20px;
+    cursor: pointer;
 }
 /* section6*/
 .one button {
@@ -187,10 +192,12 @@ border: none;
     font-weight: bold;
     border-radius: 24px;
     margin-top: 25px;
+    cursor: pointer;
 }
 .one{
     background-color: white;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
     border: 5px solid white;
     text-align: center;
@@ -251,27 +258,28 @@ border: none;
     font-size: 22px;
 }
 /*section9*/
-.banner-nine{
-    background-color: black;
-    padding: 50px;
-    color: #FFF;
-    justify-content: space-between;
-    padding-right: 150px;
-    padding-left: 150px
-}
-.list-class{
+.sec9 {
     display: flex;
-    list-style: none;
-    padding-bottom: 100px;
-}
-.list-place{
-    list-style: none;
-}
-.fa-brands{
-    background-color: #ffffff29;
-    border: 8px solid white;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.819);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .sec9 > div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .fa-brands{
+    background-color: white;
+    color: black;
+    border: 8px solid #ffffffd6;
     border-radius: 50%;
 }
+
 
 
 
